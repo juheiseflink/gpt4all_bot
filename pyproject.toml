@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "support-bot-pygpt4all"
+version = "0.1.0"
+description = ""
+authors = ["Julian Heise <julian.heise@goflink.com>"]
+readme = "README.md"
+packages = [{include = "support_bot_pygpt4all"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "0.0.149"
+pygpt4all = "1.0.1"
+pypdf = "^3.8.1"
+llama-cpp-python = "^0.1.43"
+faiss-cpu = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
