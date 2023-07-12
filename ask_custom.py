@@ -8,7 +8,7 @@ from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.vectorstores.faiss import FAISS
 
 from create_index import INDEX_ROOT
-
+xxx
 
 TEMPLATE = """
 Please use the following context to answer questions.
